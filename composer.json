@@ -1,0 +1,17 @@
+{
+    "name": "mhr/tmp",
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Application\\Tests\\Unit\\": "tests/unit/"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+* text=false
+*.sh text eol=lf
+
+# put the files that should be left out the git diff here
+composer.lock -diff
